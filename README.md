@@ -11,14 +11,37 @@
 - ❌ Обработка ошибок при вводе
 - 🧪 Упражнения с `fmt.Scan`, `bufio`, `strconv`, `unicode`
 
-## 🧰 Технологии
-
-- Go 1.22+
-- Консольный ввод/вывод
-- Карты `map[string]string`
-- Модули `strings`, `unicode`, `strconv`
-
-## 📦 Как запустить
+## 🧪 Как запустить
 
 ```bash
 go run main.go
+```
+или
+```bash
+go build
+./go-auth-system
+```
+
+## 📂 Структура проекта
+
+```
+go-auth-system/
+├── main.go         // точка входа
+├── auth.go         // логика авторизации
+├── validation.go   // валидация имени и возраста
+├── go.mod          // описание модуля
+└── README.md       // описание проекта
+```
+
+## 👨‍💻 Автор
+
+**Kirill Lazebnik**  
+🔗 [GitHub: kirillwolf](https://github.com/kirillwolf)
+
+## ✨ Скриншот (по желанию)
+
+Можно добавить изображение работы программы:
+
+```
+![Скриншот](screenshot.png)
+```
